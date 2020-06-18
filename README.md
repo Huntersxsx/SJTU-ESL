@@ -7,9 +7,9 @@
 ## <font face="楷体">结果</font>
 在[Private Leaderboard](https://www.kaggle.com/c/statlearning-sjtu-2019/leaderboard)和[Public Leaderboard](https://www.kaggle.com/c/statlearning-sjtu-2019/leaderboard)都取得了第四的成绩。  
 
-![](https://github.com/Huntersxsx/SJTU-ESL/blob/master/img/private.png.png)
+![](https://github.com/Huntersxsx/SJTU-ESL/blob/master/img/private.png)
 
-![](https://github.com/Huntersxsx/SJTU-ESL/blob/master/img/public.png.png)
+![](https://github.com/Huntersxsx/SJTU-ESL/blob/master/img/public.png)
 
 ## <font face="楷体">文件目录</font>
 本课程设计的所有代码都放在code压缩包当中。解压后共有CNN_rawdata、CNN_extradata、CNN_moredata、Resnet_rawdata、Resnet_extradata、Resnet_moredata、SVM_rawdata、SVM_extradata、Resnet101_moredata、VGG_moredata和Voting共11个文件夹，分别是对原始数据集和扩展数据集进行训练的SVM、CNN和ResNet18，对数据增强后数据集进行训练的CNN、ResNet18、ResNet101和VGG16，以及投票机制的工程文件夹。'rawdata'结尾的代表是在原始数据集上进行训练的，'extradata'结尾的代表的是加入用预处理的自建数据，在扩充数据集上进行训练的，'moredata'结尾的代表的是在用数据增强后的数据集上进行训练的。
